@@ -1,16 +1,16 @@
 {
   "compilerOptions": {
-    "target": "es5",
+    "target": "es5", // which type of javascript going to be generated
     "lib": [
-      "dom",
+      "dom", // refer to the HTMLInputElement type on NewTodo.tsx
       "dom.iterable",
       "esnext"
     ],
-    "allowJs": true,
+    "allowJs": true, //you can include plain js files in your project
     "skipLibCheck": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
-    "strict": true,
+    "strict": true, // all the parameters must have type defined
     "forceConsistentCasingInFileNames": true,
     "noFallthroughCasesInSwitch": true,
     "module": "esnext",
@@ -18,7 +18,7 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react-jsx"
+    "jsx": "react-jsx" // which output codes should be generated
   },
   "include": [
     "src"

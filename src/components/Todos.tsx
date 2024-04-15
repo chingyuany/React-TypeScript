@@ -1,10 +1,8 @@
-
-function Todos(){
+import React from "react";
+const Todos: React.FC<{items: string[]}> = (props) => {
 	return (
 		<ul>
-			<li>Learn React</li>
-			<li>Learn TypeScript</li>
-			<li>Build Something Awesome</li>
+			{props.items.map((item) => <li key={item}>{item}</li>)}
 		</ul>
 	)
 }
